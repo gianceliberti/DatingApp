@@ -8,6 +8,7 @@ import { FileUploadModule } from 'ng2-file-upload';
 
 
 
+
 @NgModule({
   declarations: [],
   imports: [
@@ -18,7 +19,7 @@ import { FileUploadModule } from 'ng2-file-upload';
     }),
     TabsModule.forRoot(),
     NgxGalleryModule,
-    FileUploadModule,
+    FileUploadModule
   ],
   exports: [
     BsDropdownModule,
@@ -28,4 +29,6 @@ import { FileUploadModule } from 'ng2-file-upload';
     FileUploadModule
   ]
 })
-export class SharedModule { }
+export class SharedModule {
+
+}
