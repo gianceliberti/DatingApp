@@ -18,7 +18,7 @@ namespace API.Data
 
             var userData = await System.IO.File.ReadAllTextAsync("Data/UserSeedData.Json");
             var users = JsonSerializer.Deserialize<List<AppUser>>(userData);
-            if (users == null) return;
+            //if (users == null) return;
 
             var roles = new List<AppRole>
             {
